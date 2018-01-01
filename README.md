@@ -11,5 +11,5 @@ Basic Commands I am using
 - git commit -m "message here" (add an message at every commit)
 - git push (push changes to the remore master)  
 - git push origin master (you can push to branches as well)
-- git remore show origin (To know where you current local file is tracking to which remore branch)
+- git remote show origin (To know where you current local file is tracking to which remore branch)
 
