@@ -1,0 +1,22 @@
+This is important to remember
+
+If I have a script touched - saved in local repo.
+
+And on my working directory isn't clean
+
+git status says - there is one file untracked 
+
+e.g.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        js/mq-custom-2-libanswers.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+"Git pull" from remote master does not overrides the uncommitted - un tracked file.
+namely - it will not be overridden 
+
+Once it is git added, git pull will override (test this statement)
+
