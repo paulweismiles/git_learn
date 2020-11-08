@@ -11,5 +11,31 @@ Basic Commands I am using
 - git remote show origin (To know where you current local file is tracking to which remore branch)
 
 - git diff  (this "-" minus means what is in the repository "+" means what's added - little dif from unix)
-- git diff --staged (check the dif only in the staged v.s repo. So repo is - minus, staged is + plus  )
-- Test line 20201108
+
+git diff checks 
+a (remote repo file) 
+b (local file)
+
+--- a/basic_commands.md
++++ b/basic_commands.md
+
+
+- # git diff --staged 
+
+Once you "git add <file>"
+The file will be in the the staged environemnt
+
+If you do git diff --staged
+you are comparing 
+a) Remote repo file
+b) local staged file
+
+This check  only in the staged v.s repo. So repo is - minus, staged is + plus  ) 
+
+rubbish 
+rubbish 
+
+rubbish
+
+
+
