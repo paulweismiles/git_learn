@@ -34,4 +34,10 @@ This check  only in the staged v.s repo. So repo is - minus, staged is + plus  )
 
 
 
+- # Reset
+ git reset --hard <commit-hash>
+ git push -f origin master
 
+ Hard reset revert local
+ you have to "force" push so that the remote master reads your local Head.
+ git push is not ENOUGH - git will say conflicts
