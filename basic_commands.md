@@ -32,7 +32,10 @@ b) local staged file
 
 This check  only in the staged v.s repo. So repo is - minus, staged is + plus  ) 
 
+rubbish 
+rubbish 
 
+rubbish
 
 
 
