@@ -12,3 +12,4 @@ Basic Commands I am using
 
 - git diff  (this "-" minus means what is in the repository "+" means what's added - little dif from unix)
 - git diff --staged (check the dif only in the staged v.s repo. So repo is - minus, staged is + plus  )
+- Test line 20201108
